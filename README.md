@@ -4,6 +4,8 @@ A **Nix flake** designed to seamlessly pull, patch, and cross-compile the [LNH-t
 
 This repository eliminates the need to manually install dependencies like `arm-none-eabi-gcc`, CMake, or Docker. Everything required to generate your `.uf2` binary is managed inside a reproducible Nix environment.
 
+Who is this for Nix users who want to compile their own firmware, most users will be better off using the precompiled version by Ansem-Xae available [here](https://ansem-xae.github.io/dspico.html)
+
 ---
 
 ## 🛠️ Features
@@ -51,4 +53,5 @@ The resulting firmware will be placed in `result/share/DSpico.uf2`.
 ## 🤝 Acknowledgements
 
 * [LNH-team](https://github.com/LNH-team) for designing and developing the DSpico hardware and core firmware.
+* [Ansem-Xae](https://ansem-xae.github.io/dspico.html) for his excellent precompiled firmware and additional files available.
 * The NixOS community for maintaining robust ARM cross-compilation toolchains.
