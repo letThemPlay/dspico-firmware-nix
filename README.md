@@ -24,11 +24,13 @@ You must have **Nix** installed with flakes enabled. If you do not have it, inst
 2. Place the required bios files inside the files folder [see](files/README.md)
 3. Run the following command
 
-```bash hybrid
+```bash
+# Hybrid
 nix build .#default
 ```
 
-```bash wrfuxxed patched
+```bash
+# wrfuxxed patched
 nix build .#wrfuxxed-firmware
 ```
 
