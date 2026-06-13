@@ -18,7 +18,7 @@ Who is this for Nix users who want to compile their own firmware, most users wil
 
 ### Prerequisites
 
-You must have **Nix** installed with flakes enabled. If you do not have it, install it via the [Determinate Nix Installer](https://determinate.cc): Follow directions of their website.
+You must have **Nix** installed with flakes enabled. If you do not have it, install it via the [Determinate Nix Installer](https://determinate.cc): Follow directions on their website.
 
 ### Building the firmware
 
