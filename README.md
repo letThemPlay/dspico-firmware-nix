@@ -26,6 +26,11 @@ You must have **Nix** installed with flakes enabled. If you do not have it, inst
 2. Place the required bios files inside the files folder [see](files/README.md)
 3. Run the following command
 
+#### N.B
+
+Ensure the bios files are tracked by git (git add files/), Nix requires any files that are to be used by the build process to be tracked by git if building inside a git repository.
+
+
 ```bash
 # Hybrid
 nix build .#default
