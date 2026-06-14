@@ -11,6 +11,7 @@ Who is this for, Nix users who want to compile their own firmware. Most users wi
 ## 🛠️ Features
 
 * **Reproducible Builds**: Locked toolchain prevents "works on my machine" issues.
+* **Single Build Command**: Will build dspico-dldi, dspico-bootloader, dsromencryptor and dspico-wrfuxxed as dependencies for the firmware image.
 
 ---
 
